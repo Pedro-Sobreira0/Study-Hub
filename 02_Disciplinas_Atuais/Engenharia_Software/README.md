@@ -7,7 +7,7 @@ Esta pasta reúne meus estudos e atividades da disciplina de Engenharia de Softw
 - Exercícios práticos
 - Atividades e entregas
 
-## Atividades realizadas
+## Atividades Realizadas
 
 ### Mapa Mental sobre Scrum
 

@@ -7,11 +7,10 @@ Esta pasta reúne meus estudos e atividades da disciplina de Engenharia de Softw
 - Exercícios práticos
 - Atividades e entregas
 
-## Atividades Realizadas
+## Atividades realizadas
 
 ### Mapa Mental sobre Scrum
 
 Mapa mental elaborado como atividade acadêmica para organizar visualmente os conceitos relacionados ao Scrum.
 
-**Arquivo:** [Mapa Mental Scrum](Mapa_Mental_Scrum(1).pdf)
-
+**Arquivo:** [Mapa Mental Scrum](mapa_mental_scrum%20(1).pdf)

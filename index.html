@@ -1,85 +1,49 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Study Hub | Engenharia de Software</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 850px;
-            margin: 50px auto;
-            padding: 20px;
-            line-height: 1.6;
-            color: #222;
-            background-color: #f4f6f8;
-        }
-
-        header, section {
-            background: white;
-            padding: 24px;
-            margin-bottom: 20px;
-            border-radius: 10px;
-        }
-
-        h1, h2 {
-            color: #2457a7;
-        }
-
-        a {
-            color: #2457a7;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Estudos e projetos de Pedro Sobreira, estudante de Engenharia de Software no CEUB.">
+<title>Study Hub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Study Hub</h1>
-        <p>Meu portfólio acadêmico de Engenharia de Software.</p>
-    </header>
-
-    <section>
-        <h2>Sobre o projeto</h2>
-        <p>
-            Este espaço reúne minha trajetória acadêmica, meus estudos,
-            atividades e projetos desenvolvidos durante a graduação no CEUB.
-        </p>
-        <p>
-            <a href="apresentacao.html">Conheça meu perfil pessoal e minha trajetória acadêmica</a>
-        </p>
-    </section>
-
-    <section>
-        <h2>Disciplinas</h2>
-        <ul>
-            <li><a href="bootcamp-1.html">Bootcamp 1</a></li>
-            <li><a href="fundamentos-engenharia.html">Fundamentos da Engenharia</a></li>
-            <li><a href="banco-dados.html">Banco de Dados</a></li>
-            <li><a href="engenharia-software.html">Engenharia de Software</a></li>
-            <li><a href="introducao-computacao.html">Introdução à Computação</a></li>
-            <li><a href="logica-programacao.html">Lógica de Programação</a></li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Projetos e certificados</h2>
-        <p>Em breve, este espaço reunirá meus projetos e certificados.</p>
-    </section>
-
-    <section>
-        <h2>Contato</h2>
-        <p>
-            <a href="https://www.linkedin.com/in/pedro-sobreira-fernandes-silva-22a821444/"
-               target="_blank"
-               rel="noopener noreferrer">
-                Meu perfil no LinkedIn
-            </a>
-        </p>
-    </section>
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+<header class="site-header"><div class="wrap">
+<a class="brand" href="index.html">Study Hub</a>
+<nav aria-label="Navegação principal"><a href="index.html" aria-current="page">Início</a><a href="apresentacao.html">Sobre mim</a><a href="https://www.linkedin.com/in/pedro-sobreira-fernandes-silva-22a821444/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://github.com/Pedro-Sobreira0/Study-Hub" target="_blank" rel="noopener noreferrer">GitHub</a></nav>
+</div></header>
+<main id="conteudo" class="wrap home">
+<section class="intro">
+<h1>Pedro Sobreira</h1>
+<p class="lead">Estudo Engenharia de Software no CEUB. Neste site guardo o que vou produzindo na graduação: anotações, exercícios e projetos.</p>
+<p><a href="apresentacao.html">Como cheguei aqui</a> · <a href="https://www.linkedin.com/in/pedro-sobreira-fernandes-silva-22a821444/" target="_blank" rel="noopener noreferrer">LinkedIn</a> · <a href="https://github.com/Pedro-Sobreira0/Study-Hub" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+</section>
+<section class="block" aria-labelledby="disciplinas">
+<h2 id="disciplinas">Disciplinas</h2>
+<ul class="rows">
+<li><a href="bootcamp-1.html">Bootcamp 1</a><span>Reúne as áreas do curso que se conectam no bootcamp.</span></li>
+<li><a href="logica-programacao.html">Lógica de Programação</a><span>Variáveis, condicionais e repetição, com exemplos em Portugol.</span></li>
+<li><a href="banco-dados.html">Banco de Dados</a><span>Modelagem, modelo relacional, normalização e SQL.</span></li>
+<li><a href="engenharia-software.html">Engenharia de Software</a><span>Métodos de desenvolvimento e o protótipo que estou fazendo no Figma.</span></li>
+<li><a href="introducao-computacao.html">Introdução à Computação</a><span>Hardware, software, redes, segurança e governança de TI.</span></li>
+<li><a href="fundamentos-engenharia.html">Fundamentos da Engenharia</a><span>Ainda sem material publicado.</span></li>
+</ul>
+</section>
+<section class="block" aria-labelledby="projeto">
+<h2 id="projeto">Em andamento</h2>
+<div class="project">
+<h3>Protótipo de controle financeiro</h3>
+<p>Estou desenhando no Figma um app para controlar despesas pessoais: registrar gastos, separá-los por categoria e ver totais e comparações por mês. Ainda não publiquei as telas.</p>
+<p><a href="engenharia-software.html">Ver na página de Engenharia de Software</a></p>
+</div>
+</section>
+<section class="block" aria-labelledby="contato">
+<h2 id="contato">Contato</h2>
+<p>Me encontro no <a href="https://www.linkedin.com/in/pedro-sobreira-fernandes-silva-22a821444/" target="_blank" rel="noopener noreferrer">LinkedIn</a>. O código deste site está <a href="https://github.com/Pedro-Sobreira0/Study-Hub" target="_blank" rel="noopener noreferrer">no GitHub</a>.</p>
+</section>
+</main>
+<footer class="site-footer"><div class="wrap">Pedro Sobreira Fernandes Silva, Engenharia de Software, CEUB</div></footer>
 </body>
 </html>
